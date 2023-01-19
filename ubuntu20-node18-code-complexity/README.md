@@ -9,28 +9,14 @@ It contains the following:
 
 ### Docker
 
-Docker Login:
+#### Docker Login: ```docker login gitlab-master.nvidia.com:5005```
 
-```cmd
-    docker login gitlab-master.nvidia.com:5005
-```
-
-Docker Build:
-
+#### Docker Build and push:
 ```cmd
     docker build -t stojadinovicp/ubuntu20-node18-code-complexity:latest .
     docker push stojadinovicp/ubuntu20-node18-code-complexity:latest
     docker image prune -f
 ```
 
-Docker Cleanup:
-
-```cmd
-    docker builder prune
-```
-
-Docker Extreme cleanup:
-
-```cmd
-    docker system prune
-```
+#### Docker Cleanup: ```docker builder prune```
+#### Docker Extreme cleanup: ```docker system prune```

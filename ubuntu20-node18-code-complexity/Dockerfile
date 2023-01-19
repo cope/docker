@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 # Initial Ubuntu setup
 RUN apt update \
-	&& apt install -y curl git sshpass \
+	&& apt install -y gnupg curl git sshpass dumb-init \
 	&& apt-key update \
 	&& rm -rf /var/lib/apt/lists/*
 
