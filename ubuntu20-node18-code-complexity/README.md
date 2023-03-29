@@ -9,7 +9,7 @@ It contains the following:
 
 ### Docker
 
-#### Docker Login: ```docker login gitlab-master.nvidia.com:5005```
+#### Docker Login: ```docker login docker.com```
 
 #### Docker Build and push:
 ```cmd
